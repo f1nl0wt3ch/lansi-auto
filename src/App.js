@@ -1,7 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import './components/HomePageComponent/HomePage.js'
+import HomePage from './components/HomePageComponent/HomePage.js'
 
 function App() {
   return (
@@ -10,5 +8,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
