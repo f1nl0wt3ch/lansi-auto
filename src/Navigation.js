@@ -5,7 +5,7 @@ import {GiRaceCar} from "react-icons/gi"
 export default class Navigation extends Component {
     render() {
         return (
-            <nav className="navbar navbar-expand bg-primary navbar-dark higher">
+            <nav className="navbar navbar-expand bg-dark navbar-dark higher">
                 <div className="container-fluid">
                     <Link to="/" className="navbar-brand">
                         AutoDillers <GiRaceCar style={{height: 30, width: 30, margin: 0, padding: 0}}/>
