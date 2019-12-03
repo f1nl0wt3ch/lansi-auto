@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
-import Carousel from "./Carousel";
 
-export default class MainPage extends Component {
+export default class Service extends Component {
     render() {
+        const {ser} = this.props;
+
         return (
             <div>
-                <Carousel/>
+
             </div>
         )
     }

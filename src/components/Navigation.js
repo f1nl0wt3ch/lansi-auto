@@ -11,7 +11,7 @@ export default class Navigation extends Component {
                         AutoDillers <GiRaceCar style={{height: 30, width: 30, margin: 0, padding: 0}}/>
                     </Link>
                     <div className="navbar-nav ml-auto">
-                       <Link className="nav-item nav-link" to="/meetings">
+                       <Link className="nav-item nav-link" to="/">
                            Ajankohtaista
                         </Link>
                         <Link className="nav-item nav-link" to="/">

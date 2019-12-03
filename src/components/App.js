@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Navigation from "./Navigation";
 import Footer from "./Footer";
-import ServicePage from "./ServicePage";
+import ServiceListPage from "./ServiceListPage";
 import MainPage from "./MainPage";
 import {
     BrowserRouter as Router,
@@ -13,8 +13,8 @@ export default class App extends Component {
         return (
             <Router path="/">
                 <Navigation/>
-                <Route path="/" exact component={() => <MainPage/>}/>
-                <Route path="/services" component={() => <ServicePage/>}/>
+                <Route path="/" exact component={() => <MainPage />}/>
+                <Route path="/services" component={() => <ServiceListPage />}/>
                 <Footer />
             </Router>
         )
