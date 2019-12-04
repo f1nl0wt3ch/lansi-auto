@@ -65,3 +65,12 @@
     background-color: var(--purple-main);
     color: white;
 }
+
+/*CAROUSEL */
+Carousel {
+    margin: 10px;
+}
+
+.la-carousel {
+    color: var(--purple-main);
+}
