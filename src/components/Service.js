@@ -7,9 +7,6 @@ export default class Service extends Component {
 
         return (
             <div className="card la-card">
-                <div className="card-header">
-                    {ser.fields.name}
-                </div>
                 <img src={ser.fields.photoMain.fields.file.url} className="card-img-top" alt="..." style={{}}/>
                 <div className="card-body">
                     <h5 className="card-title">{ser.fields.name}</h5>

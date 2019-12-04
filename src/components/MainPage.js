@@ -35,6 +35,7 @@ export default class MainPage extends Component {
                     blogs: blogsArr,
                     cars: carsArr
                 });
+                console.log(this.state.blogs)
             })
             .catch(err => console.log(err));
     }
