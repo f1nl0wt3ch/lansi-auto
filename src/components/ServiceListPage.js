@@ -3,8 +3,8 @@ import Service from "./Service";
 import {createClient} from 'contentful'
 
 export default class ServiceListPage extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             services: []
         }

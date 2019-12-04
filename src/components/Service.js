@@ -4,7 +4,6 @@ import './App.css'
 export default class Service extends Component {
     render() {
         const {ser} = this.props;
-
         return (
             <div className="card la-card">
                 <img src={ser.fields.photoMain.fields.file.url} className="card-img-top" alt="..." style={{}}/>

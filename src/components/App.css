@@ -6,7 +6,9 @@
 .App {
     text-align: center;
 }
-
+.container {
+   clear: both;
+}
 .App-logo {
     height: 40vmin;
 }
@@ -25,6 +27,7 @@
 .content {
     flex: 1 0 auto;
     padding: 10px;
+    clear: both;
 }
 
 /*FOOTER*/

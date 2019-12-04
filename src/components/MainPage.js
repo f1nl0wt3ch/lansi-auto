@@ -42,11 +42,12 @@ export default class MainPage extends Component {
 
     render() {
         return (
-            <div>
+          <div>
                 <Carousel/>
                 <CarsList cars={this.state.cars}/>
                 <BlogList blogs={this.state.blogs}/>
-            </div>
+          </div>
+
         )
     }
 }
