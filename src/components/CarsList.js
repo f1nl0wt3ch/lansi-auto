@@ -2,21 +2,11 @@ import React, {Component} from 'react';
 import Car from "./Car";
 
 export default class CarsList extends Component {
-    constructor() {
-        super();
-        this.state = {
-            cars: []
-        }
-    }
-    /*Make a call to contentful */
-    componentWillMount() {
-
-    }
-
     render() {
+        const {cars} = this.props;
         return (
             <div className="container">
-                {this.state.cars.map(car => <Car key={car.id} car={car}/>)}
+                {cars.map(car => <Car key={car.sys.id} car={car}/>)}
             </div>
         )
     }

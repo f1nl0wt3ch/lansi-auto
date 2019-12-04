@@ -14,8 +14,8 @@ export default class App extends Component {
             <Router path="/">
                 <Navigation/>
                 <Route path="/" exact component={() => <MainPage />}/>
-                <Route path="/services" component={() => <ServiceListPage />}/>
-                <Footer />
+                <Route path="/services" component={() => <ServiceListPage/>}/>
+                <Footer/>
             </Router>
         )
     }
