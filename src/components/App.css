@@ -1,3 +1,8 @@
+/*COLOR PALETTER*/
+:root {
+    --purple-main: #7042c6;
+}
+
 .App {
     text-align: center;
 }
@@ -22,21 +27,41 @@
     padding: 10px;
 }
 
-.footer {
-    flex-shrink: 0;
-    text-align: center;
-    background-color: tomato;
+/*FOOTER*/
+.la-footer {
+    background-color: var(--purple-main);
+}
+.footer-copyright a {
+    color:white;
+}
+
+.page-footer {
     color: white;
+}
+
+/*NAVIGATION*/
+.la-nav {
+    background-color: var(--purple-main);
 }
 
 .list-unstyled a {
   color: white;
 }
 
-.footer-copyright a {
-  color:white;
+/*SERVICE ELEMENTS*/
+.la-card {
+    padding: 40px;
+    margin: 60px;
 }
 
-.page-footer {
-  color: white;
+.card-header {
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+    color: var(--purple-main);
+}
+
+.card-body a:link {
+    background-color: var(--purple-main);
+    color: white;
 }

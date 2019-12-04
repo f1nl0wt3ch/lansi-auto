@@ -16,6 +16,7 @@ export default class MainPage extends Component {
     componentDidMount() {
         let blogsArr = [];
         let carsArr = [];
+
         const client = createClient({
             space: 'xd8y5qe1attb',
             accessToken: 'saJqB-lLlWNKxG6Em7kui82HU1C92JD457qIWSaTNTU'

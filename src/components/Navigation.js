@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
 import {Link} from "react-router-dom";
 import {GiRaceCar} from "react-icons/gi"
+import './App.css'
 
 export default class Navigation extends Component {
     render() {
         return (
-            <nav className="navbar navbar-expand bg-dark navbar-dark higher">
+            <nav className="la-nav navbar navbar-expand bg-dark navbar-dark higher">
                 <div className="container-fluid">
                     <Link to="/" className="navbar-brand">
                         AutoDillers <GiRaceCar style={{height: 30, width: 30, margin: 0, padding: 0}}/>
