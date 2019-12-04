@@ -5,7 +5,8 @@ export default class Blog extends Component {
         const {blog} = this.props;
         return (
             <div className="container">
-              <p>{blog.fields.name}</p>
+                <p>{blog.fields.name}</p>
+                <p>{blog.fields.description}</p>
             </div>
         )
     }
