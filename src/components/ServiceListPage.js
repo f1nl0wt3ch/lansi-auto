@@ -3,8 +3,8 @@ import Service from "./Service";
 import { createClient } from 'contentful'
 
 export default class ServiceListPage extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             services: []
         }
@@ -20,7 +20,13 @@ export default class ServiceListPage extends Component {
       })
       .getEntries("service")
       .then(res => {
-         console.log(res.items)
+         console.log("services",res.items)
+         let serviceArr = []
+         res.items.map(item => {
+             if(item.fields.dealer) {
+                serviceArr.push(item);
+             }
+         })
          this.setState({
             services: res.items
          });
@@ -32,7 +38,7 @@ export default class ServiceListPage extends Component {
     render() {
         return (
             <div>
-                {this.state.services.map(ser => <Service key={ser.sys.id} ser={ser}/>)}
+              {this.state.services.map(ser => <Service key={ser.sys.id} ser={ser}/>)}
             </div>
         )
     }
