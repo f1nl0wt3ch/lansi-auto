@@ -23,8 +23,7 @@ export default class ServiceListPage extends Component {
          console.log(res.items)
          this.setState({
             services: res.items
-         })
-         console.log("Getting Response from Contentful ", this.state.services[0].sys.id);
+         });
       })
       .catch(err => console.log(err))
 
