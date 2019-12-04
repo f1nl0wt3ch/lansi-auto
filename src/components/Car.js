@@ -6,7 +6,9 @@ export default class Car extends Component {
 
         return (
             <div>
-
+              <p>{car.fields.model}</p>
+              <p>{car.fields.branch}</p>
+              <p>{car.fields.madeIn}</p>
             </div>
         )
     }

@@ -6,7 +6,7 @@ export default class Blog extends Component {
 
         return (
             <div>
-
+              <p>{blog.fields.name}</p>
             </div>
         )
     }
