@@ -15,7 +15,7 @@
 
 # Demo
 - https://lansi-auto-v2.herokuapp.com/
-If you got error when accessing the application, please refesh your browser again.
+- If you got error when accessing the application, please refesh your browser again.
 
 # Author
 - Dinh Duc Thinh and Alexander Gol
